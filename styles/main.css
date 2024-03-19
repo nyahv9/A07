@@ -60,8 +60,10 @@ main h1 {
 	padding: .3em 0;
 	border-bottom: solid;
 	border-top: solid;
-	border-color: #931420;
 	border-width: 3px;
+	border: 4px double #931420; 
+    	border-radius: 15px; 
+    	box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); 
 }
 main h2 {
 	color: var(--global-color-1);
